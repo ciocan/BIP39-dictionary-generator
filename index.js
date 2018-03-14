@@ -17,19 +17,19 @@ words.on('line', (line) => {
 words.on('end', () => {
   // console.log(list.length)
   const sublist = list.filter(word => word.startsWith('b'))
-  const templist = []
+  const bipList = []
 
-  while (templist.length < 20) {
+  while (bipList.length < 10) {
     const randomWord = getRandom(sublist)
-    if (!isSimilar(randomWord, templist)) {
-      templist.push(randomWord)
+    if (!isSimilar(randomWord, bipList)) {
+      bipList.push(randomWord)
     }
   }
 
-  console.log(templist.sort())
+  console.log(bipList.sort())
   // let 
   // console.log(sublist)
-  console.log(similarity("budaca", "budac"))
+  console.log(similarity("borzoia", "borzoise"))
 })
 
 const getRandom = (list) => list[Math.floor(Math.random() * list.length)]
@@ -37,9 +37,9 @@ const getRandom = (list) => list[Math.floor(Math.random() * list.length)]
 const isSimilar = (word, list, threshold = 0.2) => {
 
   list.forEach(listWord => {
-    const similar = similarity(word, listWord)
-    // console.log(similar)
-    if (similar < threshold)  {
+    const similarityScore = similarity(word, listWord)
+    console.log(similarityScore)
+    if (similarityScore > threshold) {
       return true
     }
   })

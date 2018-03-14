@@ -3,18 +3,19 @@ const LineByLineReader = require('line-by-line')
 
 const alphabet = "abcdefghilmnoprstuvz"
 const WORDS_PER_LETTER = 203
+const THRESHOLD = 0.3
 
-const words = new LineByLineReader('wordlist-ro.txt')
+const allWords = new LineByLineReader('wordlist-ro.txt')
 const list = []
 const bip39 = []
 
-words.on('line', (line) => {
+allWords.on('line', (line) => {
   if (line.length >= 4 && line.length <= 8) {
     list.push(line)
   }
 })
 
-words.on('end', () => {
+allWords.on('end', () => {
   // console.log(list.length)
   const sublist = list.filter(word => word.startsWith('b'))
   const bipList = []
@@ -34,12 +35,12 @@ words.on('end', () => {
 
 const getRandom = (list) => list[Math.floor(Math.random() * list.length)]
 
-const isSimilar = (word, list, threshold = 0.2) => {
+const isSimilar = (word, words, threshold = THRESHOLD) => {
 
-  list.forEach(listWord => {
-    const similarityScore = similarity(word, listWord)
-    console.log(similarityScore)
-    if (similarityScore > threshold) {
+  words.forEach(_word => {
+    const score = similarity(word, _word)
+    console.log(score, _word)
+    if (score > threshold) {
       return true
     }
   })

@@ -1,38 +1,56 @@
-import fs from 'fs'
-import LineByLineReader from 'line-by-line'
-import similarity from 'similarity'
+const fs = require('fs')
+const LineByLineReader = require('line-by-line')
+const similarity = require('similarity')
+const perf = require('execution-time')()
+const accents = require('remove-accents')
 
-// const THRESHOLD = 0.6251
 const MIN_CHAR = 4
-const MAX_CHAR = 10
-const THRESHOLD = 0.57
+const MAX_CHAR = 11
+const THRESHOLD = 0.43
 
-const allWords = new LineByLineReader('wordlist-ro.txt')
+perf.start()
+
+const allWords = new LineByLineReader('wordlist-ro-all.txt')
 const list = []
+let i = 0
 
 const filterByLength = (word) => word.length >= MIN_CHAR && word.length <= MAX_CHAR
 
-allWords.on('line', (line) => {
-  if (filterByLength(line)) {
+allWords.on('line', (word) => {
+  i++
+  if (filterByLength(word)) {
     let excluded = false
+    const transformedWord = accents(word).toLowerCase()
 
-    list.forEach(word => {
-      if (similarity(word, line) >= THRESHOLD) {
+    list.every(_word => {
+      if ((
+        transformedWord.substr(0, 4) === _word.substr(0, 4) &&
+        transformedWord.substr(0, 4).length <= 4
+      ) || transformedWord.includes('-')
+      ) {
         excluded = true
+        return false
       }
+
+      if (similarity(_word, transformedWord) >= THRESHOLD) {
+        excluded = true
+        return false
+      }
+
+      return true
     })
 
-    if (!excluded) list.push(line)
+    if (i % 10000 === 0) console.log(i / 1000)
+    if (!excluded) list.push(transformedWord)
   }
 })
 
 allWords.on('end', () => {
-  console.log(list.length)
-  list.forEach((word, index) => {
-    if (index < 30) console.log(word)
-  })
+  console.log('length: ', list.length)
 
-  const file = fs.createWriteStream('wordlist-filtered.txt')
+  const file = fs.createWriteStream('wordlist-filtered-all.txt')
   list.forEach(word => file.write(`${word}\n`))
   file.end()
+
+  console.log(perf.stop().words)
 })

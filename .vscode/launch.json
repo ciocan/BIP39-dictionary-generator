@@ -9,8 +9,8 @@
             "request": "launch",
             "name": "Launch Program",
             "program": "${workspaceFolder}/index.js",
-            "runtimeExecutable": "${workspaceRoot}/node_modules/.bin/babel-node",
-            "runtimeArgs": ["--presets", "env"]
+            // "runtimeExecutable": "${workspaceRoot}/node_modules/.bin/babel-node",
+            // "runtimeArgs": ["--presets", "env"]
         }
     ]
 }

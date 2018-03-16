@@ -1030,10 +1030,10 @@ barnuitii
 barnuitilor
 barnuitul
 barnuitului
-< barsence
-< barsencei
-< barsencele
-< barsencelor
+barsence
+barsencei
+barsencele
+barsencelor
 basadea
 basadeai
 basadeam
@@ -1077,41 +1077,41 @@ baschine
 baschinei
 baschinele
 baschinelor
-< basea
-< baseai
-< baseam
-< baseasca
-< baseati
-< baseau
-< basesc
-< baseste
-< basesti
-< basim
-< basina
-< basind
-< basini
-< basinii
-< basinile
-< basinilor
-< basira
-< basiram
-< basirati
-< basire
-< basirea
-< basiri
-< basirii
-< basirile
-< basirilor
-< basise
-< basisem
-< basisera
-< basiseram
-< basiserati
-< basisesi
-< basiseti
-< basisi
-< basit
-< basiti
+basea
+baseai
+baseam
+baseasca
+baseati
+baseau
+basesc
+baseste
+basesti
+basim
+basina
+basind
+basini
+basinii
+basinile
+basinilor
+basira
+basiram
+basirati
+basire
+basirea
+basiri
+basirii
+basirile
+basirilor
+basise
+basisem
+basisera
+basiseram
+basiserati
+basisesi
+basiseti
+basisi
+basit
+basiti
 basmuitor
 basmuitori
 basmuitorii
@@ -1162,7 +1162,7 @@ bazdoace
 bazdoacei
 bazdoacele
 bazdoacelor
-< beasa
+beasa
 bechi
 beda
 bede
@@ -1197,41 +1197,41 @@ beracea
 beracei
 beracele
 beracelor
-< bes
-< besa
-< bese
-< besea
-< beseai
-< beseam
-< beseasca
-< beseati
-< beseau
-< besesc
-< beseste
-< besesti
-< besi
-< besii
-< besim
-< besind
-< besira
-< besiram
-< besirati
-< besire
-< besirea
-< besiri
-< besirii
-< besirile
-< besirilor
-< besise
-< besisem
-< besisera
-< besiseram
-< besiserati
-< besisesi
-< besiseti
-< besisi
-< besit
-< besiti
+bes
+besa
+bese
+besea
+beseai
+beseam
+beseasca
+beseati
+beseau
+besesc
+beseste
+besesti
+besi
+besii
+besim
+besind
+besira
+besiram
+besirati
+besire
+besirea
+besiri
+besirii
+besirile
+besirilor
+besise
+besisem
+besisera
+besiseram
+besiserati
+besisesi
+besiseti
+besisi
+besit
+besiti
 betonuri
 betonurile
 betonurilor
@@ -2094,8 +2094,8 @@ buzzerele
 buzzerelor
 buzzerul
 buzzerului
-< bytele
-< bytelui
+bytele
+bytelui
 bytul
 bytului
 cabaretiera
@@ -2112,43 +2112,43 @@ cabulipsitii
 cabulipsitilor
 cabulipsitul
 cabulipsitului
-< cac
-< cacai
-< cacam
-< cacand
-< cacara
-< cacaram
-< cacarati
-< cacare
-< cacarea
-< cacari
-< cacarii
-< cacarile
-< cacarilor
-< cacase
-< cacasem
-< cacasera
-< cacaseram
-< cacaserati
-< cacasesi
-< cacaseti
-< cacasi
-< cacat
-< cacata
-< cacate
-< cacatei
-< cacatele
-< cacatelor
-< cacati
-< cacatii
-< cacatilor
-< cacatul
-< cacatului
-< cacaturi
-< cacaturile
-< cacaturilor
-< cacau
-< cace
+cac
+cacai
+cacam
+cacand
+cacara
+cacaram
+cacarati
+cacare
+cacarea
+cacari
+cacarii
+cacarile
+cacarilor
+cacase
+cacasem
+cacasera
+cacaseram
+cacaserati
+cacasesi
+cacaseti
+cacasi
+cacat
+cacata
+cacate
+cacatei
+cacatele
+cacatelor
+cacati
+cacatii
+cacatilor
+cacatul
+cacatului
+cacaturi
+cacaturile
+cacaturilor
+cacau
+cace
 cadrai
 cadram
 cadraram
@@ -2215,11 +2215,11 @@ cararelelor
 caratoarei
 caratoarele
 caratoarelor
-< caratora
-< caratore
-< caratorei
-< caratorele
-< caratorelor
+caratora
+caratore
+caratorei
+caratorele
+caratorelor
 carboloyul
 carboloyului
 carbonatai
@@ -3465,9 +3465,9 @@ clotelor
 coac
 coacul
 coacului
-< coaie
-< coaiele
-< coaielor
+coaie
+coaiele
+coaielor
 cobaltaia
 cobaltaiau
 cobaltaie
@@ -3635,9 +3635,9 @@ codolanii
 codolanilor
 codolanul
 codolanului
-< coi
-< coiul
-< coiului
+coi
+coiul
+coiului
 colbarea
 colbareai
 colbaream
@@ -3960,10 +3960,10 @@ curryului
 curryuri
 curryurile
 curryurilor
-< curului
-< cururi
-< cururile
-< cururilor
+curului
+cururi
+cururile
+cururilor
 cusator
 cusatori
 cusatorilor
@@ -4410,12 +4410,12 @@ descordez
 descordeze
 descordezi
 desdimineata
-< desertificata
-< desertificate
-< desertificatei
-< desertificatele
-< desertificatii
-< desertificatul
+desertificata
+desertificate
+desertificatei
+desertificatele
+desertificatii
+desertificatul
 desezisa
 desezisai
 desezisam
@@ -6705,48 +6705,48 @@ frenologe
 frenologei
 frenologele
 frenologelor
-< fut
-< futa
-< futand
-< fute
-< futea
-< futeai
-< futeam
-< futeati
-< futeau
-< futem
-< futere
-< futerea
-< futeri
-< futerii
-< futerile
-< futerilor
-< futeti
-< futi
-< futu
-< futui
-< futura
-< futuram
-< futurati
-< futuse
-< futusem
-< futusera
-< futuseram
-< futuserati
-< futusesi
-< futuseti
-< futusi
-< futut
-< fututa
-< futute
-< fututei
-< fututele
-< fututelor
-< fututi
-< fututii
-< fututilor
-< fututul
-< fututului
+fut
+futa
+futand
+fute
+futea
+futeai
+futeam
+futeati
+futeau
+futem
+futere
+futerea
+futeri
+futerii
+futerile
+futerilor
+futeti
+futi
+futu
+futui
+futura
+futuram
+futurati
+futuse
+futusem
+futusera
+futuseram
+futuserati
+futusesi
+futuseti
+futusi
+futut
+fututa
+futute
+fututei
+fututele
+fututelor
+fututi
+fututii
+fututilor
+fututul
+fututului
 gabja
 gabje
 gabjei
@@ -6807,11 +6807,11 @@ galomaniilor
 galvanostegiile
 ganglioplegici
 ganglioplegicii
-< gaoaza
-< gaoaze
-< gaoazei
-< gaoazele
-< gaoazelor
+gaoaza
+gaoaze
+gaoazei
+gaoazele
+gaoazelor
 garagist
 garagisti
 garagistii
@@ -11856,12 +11856,12 @@ limbisticile
 limbisticilor
 limnimetriile
 limnimetriilor
-< lindic
-< lindice
-< lindicele
-< lindicelor
-< lindicul
-< lindicului
+lindic
+lindice
+lindicele
+lindicelor
+lindicul
+lindicului
 linguric
 linguricul
 linguricului
@@ -11991,7 +11991,7 @@ macau
 macaul
 macaului
 machea
-< machis
+machis
 macinar
 macinarul
 macinarului
@@ -17762,11 +17762,11 @@ pitute
 pitutei
 pitutele
 pitutelor
-< pizda
-< pizde
-< pizdei
-< pizdele
-< pizdelor
+pizda
+pizde
+pizdei
+pizdele
+pizdelor
 pizmatarnic
 pizmatarnica
 pizmatarnice
@@ -19032,17 +19032,17 @@ poslusiti
 posmol
 posmolul
 posmolului
-< postlandian
-< postlandiana
-< postlandianul
-< postlandianului
-< postlandiene
-< postlandienei
-< postlandienele
-< postlandienelor
-< postlandieni
-< postlandienii
-< postlandienilor
+postlandian
+postlandiana
+postlandianul
+postlandianului
+postlandiene
+postlandienei
+postlandienele
+postlandienelor
+postlandieni
+postlandienii
+postlandienilor
 posttonici
 posttonicii
 posttonicilor
@@ -21404,11 +21404,11 @@ puiucului
 puiucuri
 puiucurile
 puiucurilor
-< pula
-< pule
-< pulei
-< pulele
-< pulelor
+pula
+pule
+pulei
+pulele
+pulelor
 pulpara
 pulparei
 pulpari
@@ -26867,7 +26867,7 @@ subgrefierilor
 subgrefierul
 subgrefierului
 submearsa
-< submersa
+submersa
 subpamant
 subpamantul
 subpamantului
@@ -27201,9 +27201,9 @@ supermanii
 supermanilor
 supervizoarea
 supervizoarei
-< supracurente
-< supracurentele
-< supracurentelor
+supracurente
+supracurentele
+supracurentelor
 supratimp
 supratimpi
 supratimpii
@@ -27789,9 +27789,9 @@ talharosului
 talioane
 talioanele
 talioanelor
-< talionuri
-< talionurile
-< talionurilor
+talionuri
+talionurile
+talionurilor
 talpac
 talpaca
 talpace
@@ -29979,9 +29979,9 @@ troscaniseti
 troscanisi
 troscanit
 troscaniti
-< troscotei
-< troscoteii
-< troscoteilor
+troscotei
+troscoteii
+troscoteilor
 troscotelele
 troscotelelor
 troscova
@@ -32143,9 +32143,9 @@ versoacelor
 versoc
 versocul
 versocului
-< verticiloza
-< verticiloze
-< verticilozei
+verticiloza
+verticiloze
+verticilozei
 verticilioza
 verticilioze
 verticiliozei
